@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VYwjsMpBS4QVlGj2BMOSBGT0WCcT7JL9XwsD+BK9ESYJy8sqwptbdWBep1vBp5uelpSjWp6nqvGkkFaA6O4G8w==",
+  "dgSpecHash": "9pOA9mE0j+/4ee27E406ZfmzPSv9Q3i29WJakN3TxFmucc0CaaX+1ROFjbaBtUgNsOsunI9TyIkDkhPkcACpCg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hahne\\Desktop\\PROJ207._Rev12\\PROJ207._Rev12\\Workshop5.Rev2.App\\Workshop5.Rev2.App.csproj",
+  "projectFilePath": "C:\\Users\\hahne\\Desktop\\PROJ.214.Workshop5.Group3\\PROJ207.Workshop5.Group3\\Workshop5.Rev2.App\\Workshop5.Rev2.App.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hahne\\.nuget\\packages\\entityframework\\6.0.0\\entityframework.6.0.0.nupkg.sha512",
     "C:\\Users\\hahne\\.nuget\\packages\\microsoft.aspnet.providers.core\\2.0.0\\microsoft.aspnet.providers.core.2.0.0.nupkg.sha512",

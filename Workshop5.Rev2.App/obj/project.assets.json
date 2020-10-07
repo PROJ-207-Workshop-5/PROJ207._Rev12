@@ -8280,11 +8280,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hahne\\Desktop\\PROJ207._Rev12\\PROJ207._Rev12\\Workshop5.Rev2.App\\Workshop5.Rev2.App.csproj",
+      "projectUniqueName": "C:\\Users\\hahne\\Desktop\\PROJ.214.Workshop5.Group3\\PROJ207.Workshop5.Group3\\Workshop5.Rev2.App\\Workshop5.Rev2.App.csproj",
       "projectName": "Workshop5.Rev2.App",
-      "projectPath": "C:\\Users\\hahne\\Desktop\\PROJ207._Rev12\\PROJ207._Rev12\\Workshop5.Rev2.App\\Workshop5.Rev2.App.csproj",
+      "projectPath": "C:\\Users\\hahne\\Desktop\\PROJ.214.Workshop5.Group3\\PROJ207.Workshop5.Group3\\Workshop5.Rev2.App\\Workshop5.Rev2.App.csproj",
       "packagesPath": "C:\\Users\\hahne\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hahne\\Desktop\\PROJ207._Rev12\\PROJ207._Rev12\\Workshop5.Rev2.App\\obj\\",
+      "outputPath": "C:\\Users\\hahne\\Desktop\\PROJ.214.Workshop5.Group3\\PROJ207.Workshop5.Group3\\Workshop5.Rev2.App\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hahne\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8300,11 +8300,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\hahne\\Desktop\\PROJ207._Rev12\\PROJ207._Rev12\\Workshop5.Rev2.BLL\\Workshop5.Rev2.BLL.csproj": {
-              "projectPath": "C:\\Users\\hahne\\Desktop\\PROJ207._Rev12\\PROJ207._Rev12\\Workshop5.Rev2.BLL\\Workshop5.Rev2.BLL.csproj"
+            "C:\\Users\\hahne\\Desktop\\PROJ.214.Workshop5.Group3\\PROJ207.Workshop5.Group3\\Workshop5.Rev2.BLL\\Workshop5.Rev2.BLL.csproj": {
+              "projectPath": "C:\\Users\\hahne\\Desktop\\PROJ.214.Workshop5.Group3\\PROJ207.Workshop5.Group3\\Workshop5.Rev2.BLL\\Workshop5.Rev2.BLL.csproj"
             },
-            "C:\\Users\\hahne\\Desktop\\PROJ207._Rev12\\PROJ207._Rev12\\Workshop5.Rev2.Data\\Workshop5.Rev2.Data.csproj": {
-              "projectPath": "C:\\Users\\hahne\\Desktop\\PROJ207._Rev12\\PROJ207._Rev12\\Workshop5.Rev2.Data\\Workshop5.Rev2.Data.csproj"
+            "C:\\Users\\hahne\\Desktop\\PROJ.214.Workshop5.Group3\\PROJ207.Workshop5.Group3\\Workshop5.Rev2.Data\\Workshop5.Rev2.Data.csproj": {
+              "projectPath": "C:\\Users\\hahne\\Desktop\\PROJ.214.Workshop5.Group3\\PROJ207.Workshop5.Group3\\Workshop5.Rev2.Data\\Workshop5.Rev2.Data.csproj"
             }
           }
         }

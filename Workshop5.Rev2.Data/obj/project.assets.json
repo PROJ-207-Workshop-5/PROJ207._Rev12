@@ -5005,11 +5005,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hahne\\Desktop\\PROJ207._Rev12\\PROJ207._Rev12\\Workshop5.Rev2.Data\\Workshop5.Rev2.Data.csproj",
+      "projectUniqueName": "C:\\Users\\hahne\\Desktop\\PROJ.214.Workshop5.Group3\\PROJ207.Workshop5.Group3\\Workshop5.Rev2.Data\\Workshop5.Rev2.Data.csproj",
       "projectName": "Workshop5.Rev2.Data",
-      "projectPath": "C:\\Users\\hahne\\Desktop\\PROJ207._Rev12\\PROJ207._Rev12\\Workshop5.Rev2.Data\\Workshop5.Rev2.Data.csproj",
+      "projectPath": "C:\\Users\\hahne\\Desktop\\PROJ.214.Workshop5.Group3\\PROJ207.Workshop5.Group3\\Workshop5.Rev2.Data\\Workshop5.Rev2.Data.csproj",
       "packagesPath": "C:\\Users\\hahne\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hahne\\Desktop\\PROJ207._Rev12\\PROJ207._Rev12\\Workshop5.Rev2.Data\\obj\\",
+      "outputPath": "C:\\Users\\hahne\\Desktop\\PROJ.214.Workshop5.Group3\\PROJ207.Workshop5.Group3\\Workshop5.Rev2.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hahne\\AppData\\Roaming\\NuGet\\NuGet.Config",
