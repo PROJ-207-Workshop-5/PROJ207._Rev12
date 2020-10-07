@@ -1,4 +1,8 @@
-﻿@model IEnumerable<Workshop5.Rev2.App.Models.PackageViewModel>
+﻿@*hidden sign up button after auth coded by David Hahner*@
+
+@*Coded by:    *@ 
+
+@model IEnumerable<Workshop5.Rev2.App.Models.PackageViewModel>
 
 @{
     ViewData["Title"] = "Index";
@@ -6,8 +10,13 @@
 
 <div class="hero">
     <h2>Exceptional Travels from the Travel Experts</h2>
-    <p>Ideas for your next trip? Sign-up now!</p>
-    <a href="~/Account/Create" class="btn btn-danger col-md-3">Sign-Up</a>
+
+    @if (!User.Identity.IsAuthenticated)
+    {
+<p>Ideas for your next trip? Sign-up now!</p>
+                <a href="~/Account/Create" class="btn btn-danger col-md-3">Sign-Up</a>}
+                            else
+                            { }
 </div>
 
 <div class="index-main">

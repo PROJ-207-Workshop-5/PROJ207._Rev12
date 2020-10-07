@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Security.Claims;
-using System.Text;
 using Workshop5.Rev2.Data.Domain;
 
 namespace Workshop5.Rev2.BLL
@@ -15,6 +12,14 @@ namespace Workshop5.Rev2.BLL
             var customer = db.Customers.SingleOrDefault(m => m.CustUserName == username &&
             m.CustPassword == password);
             return customer;
+        }
+
+        public static bool checkCustomerExist(string username)
+        {
+            var db = new TravelExperts_Group3Context();
+            var exists = db.Customers.Any(x => x.CustUserName == username);
+            if (!exists) return true;
+            else return false;
         }
 
         public static List<Customers> GetAll()
@@ -31,24 +36,7 @@ namespace Workshop5.Rev2.BLL
             return customers;
         }
 
-        //public static void update(Customers customer)
-        //{
-        //    var context = new TravelExperts_Group3Context();
-        //    var originalCustomer = context.Customers.Find(customer.CustomerId);
-        //    originalCustomer.CustFirstName = customer.CustFirstName;
-        //    originalCustomer.CustLastName = customer.CustLastName;
-        //    originalCustomer.CustAddress = customer.CustAddress;
-        //    originalCustomer.CustCity = customer.CustCity;
-        //    originalCustomer.CustProv = customer.CustProv;
-        //    originalCustomer.CustPostal = customer.CustPostal;
-        //    originalCustomer.CustCountry = customer.CustCountry;
-        //    originalCustomer.CustHomePhone = customer.CustHomePhone;
-        //    originalCustomer.CustBusPhone = customer.CustBusPhone;
-        //    originalCustomer.CustEmail = customer.CustEmail;
-        //    originalCustomer.CustUserName = customer.CustUserName;
-        //    originalCustomer.CustPassword = customer.CustPassword;
-        //    context.SaveChanges();
-        //}
+        
 
         public static Customers FindCustomerId(string name)
         {
@@ -66,12 +54,21 @@ namespace Workshop5.Rev2.BLL
             return owner;
         }
 
-        public static void update(Customers customer)
+        public static void update(Customers user)
         {
             var context = new TravelExperts_Group3Context();
-            var originalOwner = context.Customers.Find(customer.CustomerId);
-            originalOwner.CustFirstName = customer.CustFirstName;
-            originalOwner.CustLastName = customer.CustLastName;
+
+            var originalCustomer = context.Customers.Find(user.CustomerId);
+            originalCustomer.CustFirstName = user.CustFirstName;
+            originalCustomer.CustLastName = user.CustLastName;
+            originalCustomer.CustAddress= user.CustAddress;
+            originalCustomer.CustCity = user.CustCity;
+            originalCustomer.CustCountry = user.CustCountry;
+            originalCustomer.CustEmail = user.CustEmail;
+            originalCustomer.CustBusPhone = user.CustBusPhone;
+            originalCustomer.CustHomePhone = user.CustHomePhone;
+            originalCustomer.CustProv = user.CustProv;
+            originalCustomer.CustPostal = user.CustPostal;
             context.SaveChanges();
         }
 

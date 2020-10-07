@@ -1,15 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
+﻿using System.Diagnostics;
 using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Workshop5.Rev2.App.Models;
 using Workshop5.Rev2.BLL;
-using Workshop5.Rev2.Data.Domain;
 
 
 namespace Workshop5.Rev2.App.Controllers
@@ -22,8 +16,6 @@ namespace Workshop5.Rev2.App.Controllers
         {
             _logger = logger;
         }
-
-       
 
         public IActionResult Index()
         {
